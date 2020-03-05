@@ -10,3 +10,6 @@ setup:
   gem install bundler
   bundle install --path vendor/bundle
   
+setup-mac:
+  # Change screenshot saving location
+  defaults write com.apple.screencapture location ~/Downloads/; killall SystemUIServer;
