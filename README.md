@@ -8,7 +8,7 @@ If you want to install app of app store released, you need to log in AppStore.
 
 ### Install
 ```
-$ make setup
+$ make
 ```
 
 ## Links
