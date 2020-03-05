@@ -1,19 +1,12 @@
 ## Preparation
 
-Log In AppStore
-- If you want to install app of app store released, you need to log in AppStore.
+### Log In AppStore
+If you want to install app of app store released, you need to log in AppStore.
 
-Create brewfile and copy content.
-```
-$ touch Brewfile
-```
+### Download to local of Mac
+[Download](https://github.com/MatsushitaKohei/setup/archive/master.zip)
 
-Create makefile and copy content.
-```
-$ touch Makefile
-```
-
-Install
+### Install
 ```
 $ make setup
 ```
