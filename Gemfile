@@ -1,1 +1,3 @@
-gem install cocoapods
+source "https://rubygems.org"
+
+gem 'cocoapods'
