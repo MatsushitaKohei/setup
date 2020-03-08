@@ -5,10 +5,10 @@ setup:
   brew tap buo/cask-upgrade
   brew bundle
   # Gemfile
-  rbenv install 2.6.5
-  rbenv global 2.6.5
+  rbenv install 2.7.0
+  rbenv global 2.7.0
   gem install bundler
-  bundle install --path vendor/bundle
+  bundle install
   # Mintfile
   mint bootstrap
   
