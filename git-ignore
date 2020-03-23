@@ -1,0 +1,22 @@
+#!/bin/sh
+
+# arguments
+if [ -z $1 ]; then
+echo 'Usage: git_ignore arg1 arg2 arg3 ...'
+return
+fi
+
+# overwrite
+flag='y'
+if [ -e '.gitignore' ]; then
+printf 'Do you overwrite .gitignore ? [y/N]: '
+read flag;
+fi
+
+# download
+if [ $flag = 'y' ]; then
+s=$(echo $@ | tr ' ' ',')
+curl -f https://gitignore.io/api/$s -o .gitignore
+echo "gitignore file is created for: ${s}"
+fi
+echo 'finish'
