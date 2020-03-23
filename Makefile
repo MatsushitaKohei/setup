@@ -5,8 +5,8 @@ setup:
   brew tap buo/cask-upgrade
   brew bundle
   # Gemfile
-  rbenv install 2.7.0
-  rbenv global 2.7.0
+  rbenv install [TODO:Enter Latest Ruby Version]
+  rbenv global [TODO:Enter Latest Ruby Version]
   gem install bundler
   bundle install
   # Mintfile
@@ -17,6 +17,9 @@ setup-mac:
   defaults write com.apple.screencapture location ~/Downloads/; killall SystemUIServer;
   
 setup-shell:
+  # Setup hub command
+  cp shell/hub ~/.config/
+  # Setup chmod
   cp shell/git-ignore /usr/local/bin/
   chmod u+x /usr/local/bin/git-ignore
   cp shell/git-ignore-update /usr/local/bin/
