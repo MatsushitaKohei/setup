@@ -6,6 +6,14 @@ If you want to install app of app store released, you need to log in AppStore.
 ### Download to local of Mac
 [Download](https://github.com/MatsushitaKohei/setup/archive/master.zip)
 
+### Setup ruby version
+
+TODO:
+
+### Setup github token
+
+TODO:
+
 ### Install
 ```
 $ make
