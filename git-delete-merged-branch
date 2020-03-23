@@ -1,0 +1,4 @@
+#!/bin/sh
+
+git branch | grep -vE '^\*|master$|develop$|development$' | xargs -I % git branch -d %
+git branch
