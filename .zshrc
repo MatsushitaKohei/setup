@@ -50,6 +50,8 @@ alias st="stree"
 alias xc="open *.xcworkspace"
 alias xc-select-print="xcode-select --print-path; swift -version;"
 alias xc-select="sudo xcode-select -switch /Applications/Xcode/Xcode.app/Contents/Developer; xc-select-print; swift -version;"
+# iPhone Emulator
+alias ip-emulator-record="xcrun simctl io booted recordVideo recoding.mov"
 
 # AndroidStudio
 alias as="studio ."
