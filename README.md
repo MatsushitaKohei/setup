@@ -7,12 +7,10 @@ If you want to install app of app store released, you need to log in AppStore.
 [Download](https://github.com/MatsushitaKohei/setup/archive/master.zip)
 
 ### Setup ruby version
-
-TODO:
+Describe the latest Ruby version in Makefile.
 
 ### Setup github token
-
-TODO:
+Describe the your GitHub token in shell/hub.
 
 ### Install
 ```
