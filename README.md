@@ -10,7 +10,14 @@ If you want to install app of app store released, you need to log in AppStore.
 Describe the latest Ruby version in Makefile.
 
 ### Setup github token
-Describe the your GitHub token in shell/hub.
+Create hub file `~/.config/hub`.
+
+```
+github.com:
+- user: [TODO:Enter GitHub User Name]
+  oauth_token: [TODO:Enter GitHub Token]
+  protocol: https
+```
 
 ### Install
 ```
