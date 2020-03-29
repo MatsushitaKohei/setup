@@ -19,8 +19,6 @@ setup-mac:
 setup-shell:
 	# Setup .zshrc
 	cp shell/.zshrc ~/
-	# Setup hub command
-	cp shell/hub ~/.config/
 	# Setup chmod
 	cp shell/git-ignore /usr/local/bin/
 	chmod u+x /usr/local/bin/git-ignore
