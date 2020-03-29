@@ -30,3 +30,5 @@ setup-shell:
 	chmod u+x /usr/local/bin/git-delete-merged-branch
 	cp shell/git-wip /usr/local/bin/
 	chmod u+x /usr/local/bin/git-wip
+	cp shell/git-wip-pr /usr/local/bin/
+	chmod u+x /usr/local/bin/git-wip-pr
