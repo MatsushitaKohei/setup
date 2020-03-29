@@ -58,3 +58,6 @@ alias as="studio ."
 
 # InteliJ
 alias ij="idea ."
+
+# Visual Studio Code
+alias vs="code ."
