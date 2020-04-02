@@ -22,8 +22,15 @@ echo 'Invalid title.'
 exit 1
 fi
 
-# Create PR
+# Commit
 git checkout -b $head
 git commit -m "Create PR" --allow-empty
+# Push
 git push -u origin $head
+# PR
+if [ -f .github/PULL_REQUEST_TEMPLATE.md ]; then
+# TODO:template not working
+hub pull-request -F .github/PULL_REQUEST_TEMPLATE.md --edit -m "$title" -b $base -h $head | xargs open -a "Google Chrome"
+else
 hub pull-request -m "$title" -b $base -h $head | xargs open -a "Google Chrome"
+fi
